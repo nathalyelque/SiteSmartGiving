@@ -1,0 +1,73 @@
+
+.cards-container {
+    position: relative;
+    z-index: 1;
+    width: 500px;
+    height: calc(100vh - 205px);
+    padding: 10px;
+    align-items: flex-start;
+  }
+  .card {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background-color: #edebd7;
+    border: 1px solid #423e37;
+    box-shadow: 9px 11px 3px 0px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    padding: 40px;
+    transition: transform 0.3s, opacity 0.2s;
+  }
+  .card.hidden {
+    z-index: 100;
+    background-color: #fff;
+    color: #fff;
+    opacity: 0;
+    transition: color 0.5s, background-color 0.5s, transform 1s, opacity 0.2s 0.4s;
+  }
+  .card.hidden h1 {
+    color: #fff;
+    transition: color 0.5s;
+  }
+  .card.hidden:nth-of-type(1) {
+    transform: rotate(-61deg) translateX(101%) translateY(-42%) scale(0.7) skewX(3deg) skewY(5deg);
+  }
+  .card.hidden:nth-of-type(2) {
+    transform: rotate(-20deg) translateX(101%) translateY(-30%) scale(0.6) skewX(6deg) skewY(12deg);
+  }
+  .card.hidden:nth-of-type(3) {
+    transform: rotate(-89deg) translateX(101%) translateY(-41%) scale(1) skewX(4deg) skewY(1deg);
+  }
+  .card.hidden:nth-of-type(4) {
+    transform: rotate(-88deg) translateX(101%) translateY(-26%) scale(0.5) skewX(9deg) skewY(11deg);
+  }
+  .card.hidden:nth-of-type(5) {
+    transform: rotate(-80deg) translateX(101%) translateY(-40%) scale(0.6) skewX(12deg) skewY(5deg);
+  }
+  .card.hidden:nth-of-type(6) {
+    transform: rotate(-85deg) translateX(101%) translateY(-21%) scale(0.3) skewX(12deg) skewY(7deg);
+  }
+  .card:nth-of-type(1) {
+    z-index: 5;
+    transform: translateX(0px) translateY(0px);
+  }
+  .card:nth-of-type(2) {
+    z-index: 4;
+    transform: translateX(10px) translateY(10px);
+  }
+  .card:nth-of-type(3) {
+    z-index: 3;
+    transform: translateX(20px) translateY(20px);
+  }
+  .card:nth-of-type(4) {
+    z-index: 2;
+    transform: translateX(30px) translateY(30px);
+  }
+  .card:nth-of-type(5) {
+    z-index: 1;
+    transform: translateX(40px) translateY(40px);
+  }
+  .card:nth-of-type(6) {
+    z-index: 0;
+    transform: translateX(50px) translateY(50px);
+  }
