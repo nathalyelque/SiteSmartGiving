@@ -1,3 +1,7 @@
+# Objetivo
+
+Projeto Integrador realizado no bootcamp Generation, com a intenção de colocar em prática todos os conhecimentos adquiridos no decorrer do curso. Desenvolvimento realizado em grupo com os colegas Eduardo Mingoraça Walderrama, Larissa Teixeira dos Santos, Pedro Stradiotti Neto, e Wallacy Neres da Silva.
+
 # Smart Giving 
 ![logo](https://user-images.githubusercontent.com/58611826/86011982-c7e3ad80-b9f3-11ea-831d-93d4bd12ed58.png)
 
