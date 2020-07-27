@@ -31,7 +31,7 @@ O sistema além de ligar as pessoas que desejam doar à ong, também gera para a
 * Angular CLI
 
 # Copiar o Repósitorio
-`git clone https://github.com/Pedro-Stradiotti-Neto/ProjetoIntegrador.git`
+`git clone https://github.com/nathalyelque/SiteSmartGiving.git`
 
 ## Execução do Front-end
 
